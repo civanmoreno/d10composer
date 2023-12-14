@@ -1,0 +1,15 @@
+#Ignore directories generate by composer
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Ignore settings and services
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.php
+/web/sites/*/services.local.php
+
+# Ignore Drupal's file directory
+/web/sites/*/files/
